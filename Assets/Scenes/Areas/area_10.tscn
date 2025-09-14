@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://bvnun78lm8gu3"]
+
+[ext_resource type="PackedScene" uid="uid://dxgd57qor82jm" path="res://Assets/Scenes/Area Functionality/area_template.tscn" id="1_p118a"]
+
+[node name="Area10" instance=ExtResource("1_p118a")]
+
+[node name="AreaExit" parent="." index="4"]
+position = Vector2(-97, 28)
+
+[node name="EnergyCells" parent="." index="5"]
+position = Vector2(37, 50)
+
+[node name="Label" type="Label" parent="." index="6"]
+offset_left = -74.0
+offset_top = -39.0
+offset_right = 80.0
+offset_bottom = -16.0
+text = "You Did it! WooHoo!"

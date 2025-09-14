@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://f1nw1d2gdwon"]
+
+[ext_resource type="PackedScene" uid="uid://dxgd57qor82jm" path="res://Assets/Scenes/Area Functionality/area_template.tscn" id="1_mrvip"]
+[ext_resource type="PackedScene" uid="uid://edtgt66xftnj" path="res://Assets/Scenes/moving_platform_large.tscn" id="2_vjro8"]
+
+[sub_resource type="Curve2D" id="Curve2D_1bpdt"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -21, -39, 0, 0, 0, 0, 88, -124)
+}
+point_count = 2
+
+[sub_resource type="Curve2D" id="Curve2D_3y75q"]
+resource_local_to_scene = true
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, -104, -81)
+}
+point_count = 2
+
+[node name="area8" instance=ExtResource("1_mrvip")]
+
+[node name="TileMap" parent="." index="1"]
+layer_0/tile_data = PackedInt32Array(-131088, 0, 4, -131087, 65536, 4, -131086, 131072, 4, -262131, 0, 4, -262130, 65536, 4, -262129, 131072, 4)
+
+[node name="MovingPlatformLarge" parent="MovingPlatforms" index="0" instance=ExtResource("2_vjro8")]
+position = Vector2(114, 70)
+curve = SubResource("Curve2D_1bpdt")
+
+[node name="MovingPlatformLarge2" parent="MovingPlatforms" index="1" instance=ExtResource("2_vjro8")]
+position = Vector2(-93, 27)
+curve = SubResource("Curve2D_3y75q")
+
+[node name="AreaExit" parent="." index="4"]
+position = Vector2(-1, -17)
+
+[node name="EnergyCell1" parent="EnergyCells" index="0"]
+position = Vector2(-236, -62)
+
+[node name="EnergyCell2" parent="EnergyCells" index="1"]
+position = Vector2(-224, -62)
+
+[node name="EnergyCell3" parent="EnergyCells" index="2"]
+position = Vector2(223, -73)
+
+[node name="EnergyCell4" parent="EnergyCells" index="3"]
+position = Vector2(235, -73)
