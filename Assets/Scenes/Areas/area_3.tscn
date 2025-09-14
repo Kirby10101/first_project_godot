@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://ccnqxddh7jah"]
+
+[ext_resource type="PackedScene" uid="uid://dxgd57qor82jm" path="res://Assets/Scenes/Area Functionality/area_template.tscn" id="1"]
+
+[node name="area3" instance=ExtResource("1")]
+
+[node name="TileMap" parent="." index="0"]
+layer_0/tile_data = PackedInt32Array(5, 65536, 4, 6, 65536, 4, 7, 65536, 4, 8, 65536, 4, 9, 65536, 4, 10, 65536, 4, 11, 65536, 4, 12, 65536, 4, 13, 65536, 4, 14, 65536, 4, 15, 65536, 4)
+
+[node name="EnergyCells" parent="." index="4"]
+position = Vector2(114, 12)
+
+[node name="EnergyCell1" parent="EnergyCells" index="0"]
+position = Vector2(-28, -21)
+
+[node name="EnergyCell2" parent="EnergyCells" index="1"]
+position = Vector2(-86, -21)
+
+[node name="EnergyCell3" parent="EnergyCells" index="2"]
+position = Vector2(30, -22)

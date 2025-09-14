@@ -1,0 +1,15 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://bsw6227dgfrcl"
+path="res://.godot/imported/Kenney Rocket.ttf-e85a3db9f30dd1d6be1a5a9e060404ba.fontdata"
+
+[deps]
+
+source_file="res://Assets/Fonts/Kenney Rocket.ttf"
+dest_files=["res://.godot/imported/Kenney Rocket.ttf-e85a3db9f30dd1d6be1a5a9e060404ba.fontdata"]
+
+[params]
+
+dummy_value_ignore_me=0

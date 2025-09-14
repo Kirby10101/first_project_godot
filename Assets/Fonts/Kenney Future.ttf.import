@@ -1,0 +1,15 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://cboapoje3hcce"
+path="res://.godot/imported/Kenney Future.ttf-2382baec0bc196751f90a9778c5153ac.fontdata"
+
+[deps]
+
+source_file="res://Assets/Fonts/Kenney Future.ttf"
+dest_files=["res://.godot/imported/Kenney Future.ttf-2382baec0bc196751f90a9778c5153ac.fontdata"]
+
+[params]
+
+dummy_value_ignore_me=0

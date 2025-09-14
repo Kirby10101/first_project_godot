@@ -1,0 +1,15 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://b0fmtp3xi1nub"
+path="res://.godot/imported/Kenney Mini Square.ttf-c8d44df2bfab25383e1c045f388458d6.fontdata"
+
+[deps]
+
+source_file="res://Assets/Fonts/Kenney Mini Square.ttf"
+dest_files=["res://.godot/imported/Kenney Mini Square.ttf-c8d44df2bfab25383e1c045f388458d6.fontdata"]
+
+[params]
+
+dummy_value_ignore_me=0

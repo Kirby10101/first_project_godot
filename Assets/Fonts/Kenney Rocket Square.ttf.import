@@ -1,0 +1,15 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://ibxww4dypsnk"
+path="res://.godot/imported/Kenney Rocket Square.ttf-622c0bdc4047dde26213540da385b0aa.fontdata"
+
+[deps]
+
+source_file="res://Assets/Fonts/Kenney Rocket Square.ttf"
+dest_files=["res://.godot/imported/Kenney Rocket Square.ttf-622c0bdc4047dde26213540da385b0aa.fontdata"]
+
+[params]
+
+dummy_value_ignore_me=0

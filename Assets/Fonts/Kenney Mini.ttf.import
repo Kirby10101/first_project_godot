@@ -1,0 +1,15 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://debq5b34ickq1"
+path="res://.godot/imported/Kenney Mini.ttf-42e2f447af54784961ef15dcad633ad6.fontdata"
+
+[deps]
+
+source_file="res://Assets/Fonts/Kenney Mini.ttf"
+dest_files=["res://.godot/imported/Kenney Mini.ttf-42e2f447af54784961ef15dcad633ad6.fontdata"]
+
+[params]
+
+dummy_value_ignore_me=0

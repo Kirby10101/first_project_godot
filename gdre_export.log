@@ -1,0 +1,37 @@
+GDRE Tools v1.0.2
+Windows 10.0.22631, AMD Radeon (TM) Graphics, opengl3
+Opening file: C:/Users/Admin/Downloads/GDRE_tools-v1.0.2-windows/nitram1136's_Platformer.pck
+Guessing bytecode revision from engine version: 4.2.0 (rev 0x77af6ca)
+Loaded 32 imported files
+Detected Engine Version: 4.2.0
+Detected Bytecode Revision: 4.3.0-stable (77af6ca)
+Verified 75 files, no errors detected!
+Extracted 75 files, no errors detected!
+Saved project config.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     0
+Failed scripts:                         0
+Imported resources for export session:  32
+Successfully converted:                 32
+Lossy:                                  1
+Rewrote metadata:                       22
+Non-importable conversions:             0
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 4.2.0 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+

@@ -1,0 +1,15 @@
+[remap]
+
+importer="font_data_dynamic"
+type="FontFile"
+uid="uid://dr131s76fm85m"
+path="res://.godot/imported/Kenney Future Narrow.ttf-3f53a644185192f168d89198a945bc9a.fontdata"
+
+[deps]
+
+source_file="res://Assets/Fonts/Kenney Future Narrow.ttf"
+dest_files=["res://.godot/imported/Kenney Future Narrow.ttf-3f53a644185192f168d89198a945bc9a.fontdata"]
+
+[params]
+
+dummy_value_ignore_me=0
